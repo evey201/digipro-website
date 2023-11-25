@@ -1,10 +1,12 @@
 import React from 'react'
+import { HeroSection, SectionTwo } from '@/containers'
 import Image from 'next/image'
 
 const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        home
+    <main className="flex min-h-screen flex-col">
+        <HeroSection />
+        <SectionTwo />
     </main>
   )
 }
